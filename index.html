@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./img/ReedSamples_logo.svg">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+  <title>Library</title>
+</head>
+<body>
+  <h1>Library</h1>
+  <table>
+    <thead>
+      <tr>
+        <th class="num header">#</th>
+        <th class="title header">Title</th>
+        <th class="author header">Author</th>
+        <th class="wordcount header">Wordcount</th>
+        <th class="read header">Read?</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- <tr>
+        <td class="num">1</td>
+        <td class="title">Hobbit, The</td>
+        <td class="author">Tolkien, J.R.R.</td>
+        <td class="wordcount">95,356</td>
+        <td class="read"><input type="checkbox" checked disabled></td>
+        <td class="buttons">
+          <button class="ed">edit</button>
+          <button class="del">delete</button>
+        </td>
+      </tr> -->
+      <!-- <tr>
+        <td class="num">2</td>
+        <td class="title">Game of Thrones, A</td>
+        <td class="author">Martin, George R. R.</td>
+        <td class="wordcount">292,727</td>
+        <td class="read"><input type="checkbox" disabled></td>
+        <td class="buttons">
+          <button class="ed">edit</button>
+          <button class="del">delete</button>
+        </td>
+      </tr> -->
+    </tbody>
+  </table>
+  <button class="new-book">New Book</button>
+  <div class="popup">
+    <form> 
+      <ul>
+        <li>
+          <label for="btitle">Title</label>
+          <input type="text" id="btitle" name="btitle" required>
+        </li>
+        <li>
+          <label for="bauthor">Author</label>
+          <input type="text" id="bauthor" name="bauthor" required>
+        </li>
+        <li>
+          <label for="bwordcount">Wordcount</label>
+          <input type="number" id="bwordcount" name="bwordcount" required>
+        </li>
+        <li>
+          <label for="bread">Read?</label>
+          <input type="checkbox" id="bread" name="bread">
+        </li>
+      </ul>
+      <button class="add-book">Add Book</button>
+      <button type="button" class="edit-book">Save Edit</button>
+      <button type="button" class="close">x</button>
+    </form>
+  </div>
+  <a class="code" href="https://github.com/MrSamples/library" target="_blank">Code</a>
+</body>
+</html>

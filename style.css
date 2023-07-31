@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    font-family: Jost, Arial, sans-serif;
+    color: #f8f8f0;
+    /* border: 1px solid red; */
+}
+
+body {
+    background-color: #2f3947;
+}
+
+.show {
+    display: block;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    color: #00aaee;
+    text-shadow: 2px 2px #f8f8f0;
+
+}
+
+th {
+    font-size: 16px;
+    text-shadow: 1px 2px #1f2937;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+}
+
+td {
+    padding: 4px 0 4px 0;
+    border-top: 1px solid #1f2937;
+}
+
+button {
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #bfc9d7;
+    color: #000000;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 2px 2px #1f2937;
+}
+
+button:hover {
+    background-color: #9ba5b4;
+}
+
+button:active {
+    background-color: #bfc9d7;
+}
+
+input[type="checkbox"]:disabled:checked {
+    background: #00aaee;
+}
+
+input[type="checkbox"]:disabled:checked::before {
+    content: "\00a0\2713";
+}
+
+input[type="checkbox"]:disabled {
+    appearance: none;
+    height: 18px;
+    width: 18px;
+    font-weight: bold;
+    background: #ff5e00;
+    border: 1px solid black;
+}
+
+input[type="checkbox"]:disabled::before {
+    content: "\205f\202fX";
+    color: white;
+}
+
+.num {
+    width: 4%;
+}
+
+.title {
+    width: 22%;
+}
+
+.author {
+    width: 22%;
+}
+
+.wordcount {
+    width: 16%;
+    text-align: right;
+}
+
+.read {
+    width: 36%;
+}
+
+.buttons {
+    position: absolute;
+    right: 0;
+}
+
+.new-book {
+    position: absolute;
+    top: 1%;
+}
+
+.popup {
+    display: none;
+}
+
+.show {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #00000040;
+}
+
+form {
+    position: relative;
+    width: 33%;
+    padding: 24px;
+    border-radius: 12px;
+    background: #f8f8f0;
+}
+
+form * {
+    color: #000000;
+}
+
+form button {
+    border: 1px solid #000000;
+    box-shadow: none;
+}
+
+label {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+}
+
+.close {
+    position: absolute;
+    line-height: 16px;
+    top: 0;
+    right: 0;
+    font-size: 16px;
+    height: 24px;
+    width: 24px;
+    border-radius: 1000px;
+}
+
+#bread {
+    align-self: flex-start;
+}
+
+.add-book {
+    display: none;
+}
+
+.ashow {
+    display: inline;
+}
+
+.edit-book {
+    display: none;
+}
+
+.eshow {
+    display: inline;
+}
+
+.code {
+    font-size: 13px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-decoration: none;
+    color: #f8f8f0;
+    background: #00aaee;
+    border: none;
+    border-radius: 2px;
+    padding: 2px;
+}
